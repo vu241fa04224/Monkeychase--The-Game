@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <defs>
+    <linearGradient id="mountGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#80CBC4"/>
+      <stop offset="100%" stop-color="#00897B"/>
+    </linearGradient>
+    <linearGradient id="mountGrad2" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#A7FFEB"/>
+      <stop offset="100%" stop-color="#26A69A"/>
+    </linearGradient>
+  </defs>
+  <!-- Distant Peak silhouettes -->
+  <polygon points="0,720 0,380 180,240 380,420 540,280 720,440 900,220 1080,390 1280,260 1280,720" fill="url(#mountGrad)" opacity="0.6"/>
+  <polygon points="0,720 0,440 120,360 280,500 480,340 680,480 840,320 1040,490 1200,380 1280,430 1280,720" fill="url(#mountGrad2)" opacity="0.8"/>
+</svg>

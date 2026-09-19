@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80" width="80" height="80">
+  <defs>
+    <radialGradient id="parrotGrad" cx="40%" cy="40%" r="60%">
+      <stop offset="0%" stop-color="#FF5252"/><stop offset="100%" stop-color="#D50000"/>
+    </radialGradient>
+  </defs>
+  <path d="M34,42 C20,20 40,16 50,32 Z" fill="#00E676" stroke="#00C853" stroke-width="2"/>
+  <path d="M16,56 Q6,66 2,74 Q12,70 20,62 Z" fill="#2979FF"/>
+  <path d="M18,54 Q10,64 6,70 Q16,66 22,58 Z" fill="#FFEA00"/>
+  <ellipse cx="40" cy="46" rx="20" ry="16" fill="url(#parrotGrad)"/>
+  <circle cx="56" cy="34" r="14" fill="url(#parrotGrad)"/>
+  <path d="M52,20 Q56,10 60,18" fill="none" stroke="#FFD600" stroke-width="4" stroke-linecap="round"/>
+  <circle cx="58" cy="32" r="7" fill="#FFFFFF"/>
+  <circle cx="59" cy="32" r="4" fill="#212121"/>
+  <circle cx="60" cy="31" r="1.5" fill="#FFFFFF"/>
+  <path d="M68,32 Q78,36 70,44 Q66,40 68,32" fill="#FFC107" stroke="#FFA000" stroke-width="1.5"/>
+</svg>

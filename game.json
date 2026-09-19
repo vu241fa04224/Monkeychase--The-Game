@@ -1,0 +1,3376 @@
+{
+  "firstLayout": "MainMenu",
+  "gdVersion": {
+    "build": 99,
+    "major": 5,
+    "minor": 0,
+    "revision": 0
+  },
+  "properties": {
+    "adaptGameToKeepAspectRatio": true,
+    "folderProject": false,
+    "name": "MONKEY CHASE",
+    "packageName": "com.monkeychase.game",
+    "projectUuid": "e29bf44a-9b16-4c91-948f-410a8d7920ab",
+    "scaleMode": "linear",
+    "sizeOnStartupMode": "adaptWidth",
+    "templateSlug": "",
+    "version": "1.0.0",
+    "windowWidth": 1280,
+    "windowHeight": 720,
+    "author": "Monkey Chase Team",
+    "orientation": "landscape",
+    "watermark": {
+      "showWatermark": false
+    }
+  },
+  "resources": {
+    "resources": [
+      {
+        "file": "assets/images/momo_idle.svg",
+        "kind": "image",
+        "name": "assets/images/momo_idle.svg",
+        "metadata": ""
+      },
+      {
+        "file": "assets/images/momo_run.svg",
+        "kind": "image",
+        "name": "assets/images/momo_run.svg",
+        "metadata": ""
+      },
+      {
+        "file": "assets/images/momo_jump.svg",
+        "kind": "image",
+        "name": "assets/images/momo_jump.svg",
+        "metadata": ""
+      },
+      {
+        "file": "assets/images/momo_hurt.svg",
+        "kind": "image",
+        "name": "assets/images/momo_hurt.svg",
+        "metadata": ""
+      },
+      {
+        "file": "assets/images/momo_celebrate.svg",
+        "kind": "image",
+        "name": "assets/images/momo_celebrate.svg",
+        "metadata": ""
+      },
+      {
+        "file": "assets/images/banana.svg",
+        "kind": "image",
+        "name": "assets/images/banana.svg",
+        "metadata": ""
+      },
+      {
+        "file": "assets/images/star.svg",
+        "kind": "image",
+        "name": "assets/images/star.svg",
+        "metadata": ""
+      },
+      {
+        "file": "assets/images/mega_banana.svg",
+        "kind": "image",
+        "name": "assets/images/mega_banana.svg",
+        "metadata": ""
+      },
+      {
+        "file": "assets/images/coconut_shield.svg",
+        "kind": "image",
+        "name": "assets/images/coconut_shield.svg",
+        "metadata": ""
+      },
+      {
+        "file": "assets/images/speed_banana.svg",
+        "kind": "image",
+        "name": "assets/images/speed_banana.svg",
+        "metadata": ""
+      },
+      {
+        "file": "assets/images/heart.svg",
+        "kind": "image",
+        "name": "assets/images/heart.svg",
+        "metadata": ""
+      },
+      {
+        "file": "assets/images/checkpoint_off.svg",
+        "kind": "image",
+        "name": "assets/images/checkpoint_off.svg",
+        "metadata": ""
+      },
+      {
+        "file": "assets/images/checkpoint_on.svg",
+        "kind": "image",
+        "name": "assets/images/checkpoint_on.svg",
+        "metadata": ""
+      },
+      {
+        "file": "assets/images/finish_gate.svg",
+        "kind": "image",
+        "name": "assets/images/finish_gate.svg",
+        "metadata": ""
+      },
+      {
+        "file": "assets/images/mushroom.svg",
+        "kind": "image",
+        "name": "assets/images/mushroom.svg",
+        "metadata": ""
+      },
+      {
+        "file": "assets/images/platform_grass.svg",
+        "kind": "image",
+        "name": "assets/images/platform_grass.svg",
+        "metadata": ""
+      },
+      {
+        "file": "assets/images/platform_wood.svg",
+        "kind": "image",
+        "name": "assets/images/platform_wood.svg",
+        "metadata": ""
+      },
+      {
+        "file": "assets/images/platform_stone.svg",
+        "kind": "image",
+        "name": "assets/images/platform_stone.svg",
+        "metadata": ""
+      },
+      {
+        "file": "assets/images/enemy_snake.svg",
+        "kind": "image",
+        "name": "assets/images/enemy_snake.svg",
+        "metadata": ""
+      },
+      {
+        "file": "assets/images/enemy_boar.svg",
+        "kind": "image",
+        "name": "assets/images/enemy_boar.svg",
+        "metadata": ""
+      },
+      {
+        "file": "assets/images/enemy_parrot.svg",
+        "kind": "image",
+        "name": "assets/images/enemy_parrot.svg",
+        "metadata": ""
+      },
+      {
+        "file": "assets/images/enemy_frog.svg",
+        "kind": "image",
+        "name": "assets/images/enemy_frog.svg",
+        "metadata": ""
+      },
+      {
+        "file": "assets/images/logo.svg",
+        "kind": "image",
+        "name": "assets/images/logo.svg",
+        "metadata": ""
+      },
+      {
+        "file": "assets/images/bg_sky.svg",
+        "kind": "image",
+        "name": "assets/images/bg_sky.svg",
+        "metadata": ""
+      },
+      {
+        "file": "assets/images/bg_mountains.svg",
+        "kind": "image",
+        "name": "assets/images/bg_mountains.svg",
+        "metadata": ""
+      },
+      {
+        "file": "assets/images/bg_trees.svg",
+        "kind": "image",
+        "name": "assets/images/bg_trees.svg",
+        "metadata": ""
+      },
+      {
+        "file": "assets/images/bg_bushes.svg",
+        "kind": "image",
+        "name": "assets/images/bg_bushes.svg",
+        "metadata": ""
+      },
+      {
+        "file": "assets/images/cloud.svg",
+        "kind": "image",
+        "name": "assets/images/cloud.svg",
+        "metadata": ""
+      },
+      {
+        "file": "assets/images/butterfly.svg",
+        "kind": "image",
+        "name": "assets/images/butterfly.svg",
+        "metadata": ""
+      },
+      {
+        "file": "assets/images/bird.svg",
+        "kind": "image",
+        "name": "assets/images/bird.svg",
+        "metadata": ""
+      },
+      {
+        "file": "assets/images/vine.svg",
+        "kind": "image",
+        "name": "assets/images/vine.svg",
+        "metadata": ""
+      },
+      {
+        "file": "assets/sounds/jump.wav",
+        "kind": "audio",
+        "name": "assets/sounds/jump.wav",
+        "metadata": ""
+      },
+      {
+        "file": "assets/sounds/land.wav",
+        "kind": "audio",
+        "name": "assets/sounds/land.wav",
+        "metadata": ""
+      },
+      {
+        "file": "assets/sounds/banana.wav",
+        "kind": "audio",
+        "name": "assets/sounds/banana.wav",
+        "metadata": ""
+      },
+      {
+        "file": "assets/sounds/star.wav",
+        "kind": "audio",
+        "name": "assets/sounds/star.wav",
+        "metadata": ""
+      },
+      {
+        "file": "assets/sounds/powerup.wav",
+        "kind": "audio",
+        "name": "assets/sounds/powerup.wav",
+        "metadata": ""
+      },
+      {
+        "file": "assets/sounds/hurt.wav",
+        "kind": "audio",
+        "name": "assets/sounds/hurt.wav",
+        "metadata": ""
+      },
+      {
+        "file": "assets/sounds/checkpoint.wav",
+        "kind": "audio",
+        "name": "assets/sounds/checkpoint.wav",
+        "metadata": ""
+      },
+      {
+        "file": "assets/sounds/levelcomplete.wav",
+        "kind": "audio",
+        "name": "assets/sounds/levelcomplete.wav",
+        "metadata": ""
+      },
+      {
+        "file": "assets/sounds/gameover.wav",
+        "kind": "audio",
+        "name": "assets/sounds/gameover.wav",
+        "metadata": ""
+      },
+      {
+        "file": "assets/sounds/mushroom.wav",
+        "kind": "audio",
+        "name": "assets/sounds/mushroom.wav",
+        "metadata": ""
+      },
+      {
+        "file": "assets/sounds/click.wav",
+        "kind": "audio",
+        "name": "assets/sounds/click.wav",
+        "metadata": ""
+      }
+    ]
+  },
+  "objectsFolders": [],
+  "objects": [
+    {
+      "name": "Player_Momo",
+      "type": "Sprite",
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "PlatformerObject",
+          "type": "PlatformBehavior::PlatformerObjectBehavior",
+          "gravity": 900,
+          "maxFallingSpeed": 700,
+          "acceleration": 1500,
+          "deceleration": 1500,
+          "maxSpeed": 350,
+          "jumpSpeed": 550,
+          "canGrabPlatforms": false,
+          "jumpSustainTime": 0.2,
+          "useDefaultControls": true,
+          "allowDiagonals": false,
+          "slopeMaxAngle": 45,
+          "hasSeveralSecondJumpFrames": true
+        }
+      ],
+      "animations": [
+        {
+          "name": "Default",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.1,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets/images/momo_idle.svg",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets/images/momo_run.svg",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets/images/momo_jump.svg",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets/images/momo_hurt.svg",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets/images/momo_celebrate.svg",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Platform_Grass",
+      "type": "Sprite",
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Platform",
+          "type": "PlatformBehavior::PlatformBehavior",
+          "canBeGrabbed": false,
+          "platformType": "NormalPlatform",
+          "yGrabOffset": 0
+        }
+      ],
+      "animations": [
+        {
+          "name": "Default",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.1,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets/images/platform_grass.svg",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Platform_Wood",
+      "type": "Sprite",
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Platform",
+          "type": "PlatformBehavior::PlatformBehavior",
+          "canBeGrabbed": false,
+          "platformType": "Jumpthru",
+          "yGrabOffset": 0
+        }
+      ],
+      "animations": [
+        {
+          "name": "Default",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.1,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets/images/platform_wood.svg",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Platform_Stone",
+      "type": "Sprite",
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Platform",
+          "type": "PlatformBehavior::PlatformBehavior",
+          "canBeGrabbed": false,
+          "platformType": "NormalPlatform",
+          "yGrabOffset": 0
+        }
+      ],
+      "animations": [
+        {
+          "name": "Default",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.1,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets/images/platform_stone.svg",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Bounce_Mushroom",
+      "type": "Sprite",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "Default",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.1,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets/images/mushroom.svg",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Item_Banana",
+      "type": "Sprite",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "Default",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.1,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets/images/banana.svg",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Item_Star",
+      "type": "Sprite",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "Default",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.1,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets/images/star.svg",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Item_Heart",
+      "type": "Sprite",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "Default",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.1,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets/images/heart.svg",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Powerup_Shield",
+      "type": "Sprite",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "Default",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.1,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets/images/coconut_shield.svg",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Powerup_Speed",
+      "type": "Sprite",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "Default",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.1,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets/images/speed_banana.svg",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Powerup_Mega",
+      "type": "Sprite",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "Default",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.1,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets/images/mega_banana.svg",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Enemy_Snake",
+      "type": "Sprite",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "Default",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.1,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets/images/enemy_snake.svg",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Enemy_Boar",
+      "type": "Sprite",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "Default",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.1,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets/images/enemy_boar.svg",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Enemy_Parrot",
+      "type": "Sprite",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "Default",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.1,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets/images/enemy_parrot.svg",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Enemy_Frog",
+      "type": "Sprite",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "Default",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.1,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets/images/enemy_frog.svg",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Checkpoint_Totem",
+      "type": "Sprite",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "Default",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.1,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets/images/checkpoint_off.svg",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets/images/checkpoint_on.svg",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Finish_Gate",
+      "type": "Sprite",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "Default",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.1,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets/images/finish_gate.svg",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Game_Logo",
+      "type": "Sprite",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "Default",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.1,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets/images/logo.svg",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Scenery_Cloud",
+      "type": "Sprite",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "Default",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.1,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets/images/cloud.svg",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Scenery_Bird",
+      "type": "Sprite",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "Default",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.1,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets/images/bird.svg",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Scenery_Butterfly",
+      "type": "Sprite",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "Default",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.1,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets/images/butterfly.svg",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "variables": [
+    {
+      "name": "CurrentLevel",
+      "value": 1
+    },
+    {
+      "name": "TotalScore",
+      "value": 0
+    },
+    {
+      "name": "TotalBananas",
+      "value": 0
+    },
+    {
+      "name": "TotalStars",
+      "value": 0
+    },
+    {
+      "name": "UnlockedLevels",
+      "value": 1
+    },
+    {
+      "name": "SoundEnabled",
+      "value": true
+    },
+    {
+      "name": "MusicEnabled",
+      "value": true
+    }
+  ],
+  "layouts": [
+    {
+      "name": "MainMenu",
+      "mangledName": "MainMenu",
+      "r": 128,
+      "v": 216,
+      "b": 255,
+      "title": "MainMenu",
+      "stopSoundsOnStartup": false,
+      "standardSortMethod": true,
+      "uiSettings": {
+        "grid": false,
+        "gridType": "isometric",
+        "gridWidth": 32,
+        "gridHeight": 32,
+        "gridOffsetX": 0,
+        "gridOffsetY": 0,
+        "gridColor": 10401023,
+        "gridAlpha": 0.8,
+        "snapToGrid": false,
+        "zoomFactor": 1,
+        "windowMask": false
+      },
+      "objectsFolders": [],
+      "objects": [],
+      "layers": [
+        {
+          "name": "",
+          "visibility": true,
+          "cameras": [
+            {
+              "defaultSize": true,
+              "defaultViewport": true,
+              "height": 0,
+              "viewportBottom": 1,
+              "viewportLeft": 0,
+              "viewportRight": 1,
+              "viewportTop": 0,
+              "width": 0
+            }
+          ],
+          "effects": []
+        },
+        {
+          "name": "GUI",
+          "visibility": true,
+          "cameras": [
+            {
+              "defaultSize": true,
+              "defaultViewport": true,
+              "height": 0,
+              "viewportBottom": 1,
+              "viewportLeft": 0,
+              "viewportRight": 1,
+              "viewportTop": 0,
+              "width": 0
+            }
+          ],
+          "effects": []
+        }
+      ],
+      "behaviorsSharedData": [],
+      "variables": [
+        {
+          "name": "Score",
+          "value": 0
+        },
+        {
+          "name": "Bananas",
+          "value": 0
+        },
+        {
+          "name": "Stars",
+          "value": 0
+        },
+        {
+          "name": "Hearts",
+          "value": 3
+        },
+        {
+          "name": "CheckpointX",
+          "value": 100
+        },
+        {
+          "name": "CheckpointY",
+          "value": 480
+        }
+      ],
+      "instances": [
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 64,
+          "layer": "",
+          "name": "Player_Momo",
+          "persistentUuid": "inst-player-1",
+          "width": 64,
+          "x": 100,
+          "y": 480,
+          "zOrder": 10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 160,
+          "layer": "",
+          "name": "Platform_Grass",
+          "persistentUuid": "inst-plat-1",
+          "width": 800,
+          "x": 0,
+          "y": 560,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        }
+      ],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "DepartScene"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "CameraX"
+              },
+              "parameters": [
+                "",
+                "Player_Momo.PointX(\"centre\")",
+                "",
+                "0"
+              ]
+            }
+          ],
+          "events": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Player_Momo",
+                "Item_Banana",
+                "",
+                "1"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Delete"
+              },
+              "parameters": [
+                "Item_Banana"
+              ]
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarScene"
+              },
+              "parameters": [
+                "Bananas",
+                "+",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarScene"
+              },
+              "parameters": [
+                "Score",
+                "+",
+                "10"
+              ]
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "assets/sounds/banana.wav",
+                "",
+                "80",
+                "100"
+              ]
+            }
+          ],
+          "events": []
+        }
+      ]
+    },
+    {
+      "name": "LevelSelect",
+      "mangledName": "LevelSelect",
+      "r": 128,
+      "v": 216,
+      "b": 255,
+      "title": "LevelSelect",
+      "stopSoundsOnStartup": false,
+      "standardSortMethod": true,
+      "uiSettings": {
+        "grid": false,
+        "gridType": "isometric",
+        "gridWidth": 32,
+        "gridHeight": 32,
+        "gridOffsetX": 0,
+        "gridOffsetY": 0,
+        "gridColor": 10401023,
+        "gridAlpha": 0.8,
+        "snapToGrid": false,
+        "zoomFactor": 1,
+        "windowMask": false
+      },
+      "objectsFolders": [],
+      "objects": [],
+      "layers": [
+        {
+          "name": "",
+          "visibility": true,
+          "cameras": [
+            {
+              "defaultSize": true,
+              "defaultViewport": true,
+              "height": 0,
+              "viewportBottom": 1,
+              "viewportLeft": 0,
+              "viewportRight": 1,
+              "viewportTop": 0,
+              "width": 0
+            }
+          ],
+          "effects": []
+        },
+        {
+          "name": "GUI",
+          "visibility": true,
+          "cameras": [
+            {
+              "defaultSize": true,
+              "defaultViewport": true,
+              "height": 0,
+              "viewportBottom": 1,
+              "viewportLeft": 0,
+              "viewportRight": 1,
+              "viewportTop": 0,
+              "width": 0
+            }
+          ],
+          "effects": []
+        }
+      ],
+      "behaviorsSharedData": [],
+      "variables": [
+        {
+          "name": "Score",
+          "value": 0
+        },
+        {
+          "name": "Bananas",
+          "value": 0
+        },
+        {
+          "name": "Stars",
+          "value": 0
+        },
+        {
+          "name": "Hearts",
+          "value": 3
+        },
+        {
+          "name": "CheckpointX",
+          "value": 100
+        },
+        {
+          "name": "CheckpointY",
+          "value": 480
+        }
+      ],
+      "instances": [
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 64,
+          "layer": "",
+          "name": "Player_Momo",
+          "persistentUuid": "inst-player-1",
+          "width": 64,
+          "x": 100,
+          "y": 480,
+          "zOrder": 10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 160,
+          "layer": "",
+          "name": "Platform_Grass",
+          "persistentUuid": "inst-plat-1",
+          "width": 800,
+          "x": 0,
+          "y": 560,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        }
+      ],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "DepartScene"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "CameraX"
+              },
+              "parameters": [
+                "",
+                "Player_Momo.PointX(\"centre\")",
+                "",
+                "0"
+              ]
+            }
+          ],
+          "events": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Player_Momo",
+                "Item_Banana",
+                "",
+                "1"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Delete"
+              },
+              "parameters": [
+                "Item_Banana"
+              ]
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarScene"
+              },
+              "parameters": [
+                "Bananas",
+                "+",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarScene"
+              },
+              "parameters": [
+                "Score",
+                "+",
+                "10"
+              ]
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "assets/sounds/banana.wav",
+                "",
+                "80",
+                "100"
+              ]
+            }
+          ],
+          "events": []
+        }
+      ]
+    },
+    {
+      "name": "Level1_SunnyJungle",
+      "mangledName": "Level1_SunnyJungle",
+      "r": 128,
+      "v": 216,
+      "b": 255,
+      "title": "Level1_SunnyJungle",
+      "stopSoundsOnStartup": false,
+      "standardSortMethod": true,
+      "uiSettings": {
+        "grid": false,
+        "gridType": "isometric",
+        "gridWidth": 32,
+        "gridHeight": 32,
+        "gridOffsetX": 0,
+        "gridOffsetY": 0,
+        "gridColor": 10401023,
+        "gridAlpha": 0.8,
+        "snapToGrid": false,
+        "zoomFactor": 1,
+        "windowMask": false
+      },
+      "objectsFolders": [],
+      "objects": [],
+      "layers": [
+        {
+          "name": "",
+          "visibility": true,
+          "cameras": [
+            {
+              "defaultSize": true,
+              "defaultViewport": true,
+              "height": 0,
+              "viewportBottom": 1,
+              "viewportLeft": 0,
+              "viewportRight": 1,
+              "viewportTop": 0,
+              "width": 0
+            }
+          ],
+          "effects": []
+        },
+        {
+          "name": "GUI",
+          "visibility": true,
+          "cameras": [
+            {
+              "defaultSize": true,
+              "defaultViewport": true,
+              "height": 0,
+              "viewportBottom": 1,
+              "viewportLeft": 0,
+              "viewportRight": 1,
+              "viewportTop": 0,
+              "width": 0
+            }
+          ],
+          "effects": []
+        }
+      ],
+      "behaviorsSharedData": [],
+      "variables": [
+        {
+          "name": "Score",
+          "value": 0
+        },
+        {
+          "name": "Bananas",
+          "value": 0
+        },
+        {
+          "name": "Stars",
+          "value": 0
+        },
+        {
+          "name": "Hearts",
+          "value": 3
+        },
+        {
+          "name": "CheckpointX",
+          "value": 100
+        },
+        {
+          "name": "CheckpointY",
+          "value": 480
+        }
+      ],
+      "instances": [
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 64,
+          "layer": "",
+          "name": "Player_Momo",
+          "persistentUuid": "inst-player-1",
+          "width": 64,
+          "x": 100,
+          "y": 480,
+          "zOrder": 10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 160,
+          "layer": "",
+          "name": "Platform_Grass",
+          "persistentUuid": "inst-plat-1",
+          "width": 800,
+          "x": 0,
+          "y": 560,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        }
+      ],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "DepartScene"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "CameraX"
+              },
+              "parameters": [
+                "",
+                "Player_Momo.PointX(\"centre\")",
+                "",
+                "0"
+              ]
+            }
+          ],
+          "events": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Player_Momo",
+                "Item_Banana",
+                "",
+                "1"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Delete"
+              },
+              "parameters": [
+                "Item_Banana"
+              ]
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarScene"
+              },
+              "parameters": [
+                "Bananas",
+                "+",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarScene"
+              },
+              "parameters": [
+                "Score",
+                "+",
+                "10"
+              ]
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "assets/sounds/banana.wav",
+                "",
+                "80",
+                "100"
+              ]
+            }
+          ],
+          "events": []
+        }
+      ]
+    },
+    {
+      "name": "Level2_WaterfallWoods",
+      "mangledName": "Level2_WaterfallWoods",
+      "r": 128,
+      "v": 216,
+      "b": 255,
+      "title": "Level2_WaterfallWoods",
+      "stopSoundsOnStartup": false,
+      "standardSortMethod": true,
+      "uiSettings": {
+        "grid": false,
+        "gridType": "isometric",
+        "gridWidth": 32,
+        "gridHeight": 32,
+        "gridOffsetX": 0,
+        "gridOffsetY": 0,
+        "gridColor": 10401023,
+        "gridAlpha": 0.8,
+        "snapToGrid": false,
+        "zoomFactor": 1,
+        "windowMask": false
+      },
+      "objectsFolders": [],
+      "objects": [],
+      "layers": [
+        {
+          "name": "",
+          "visibility": true,
+          "cameras": [
+            {
+              "defaultSize": true,
+              "defaultViewport": true,
+              "height": 0,
+              "viewportBottom": 1,
+              "viewportLeft": 0,
+              "viewportRight": 1,
+              "viewportTop": 0,
+              "width": 0
+            }
+          ],
+          "effects": []
+        },
+        {
+          "name": "GUI",
+          "visibility": true,
+          "cameras": [
+            {
+              "defaultSize": true,
+              "defaultViewport": true,
+              "height": 0,
+              "viewportBottom": 1,
+              "viewportLeft": 0,
+              "viewportRight": 1,
+              "viewportTop": 0,
+              "width": 0
+            }
+          ],
+          "effects": []
+        }
+      ],
+      "behaviorsSharedData": [],
+      "variables": [
+        {
+          "name": "Score",
+          "value": 0
+        },
+        {
+          "name": "Bananas",
+          "value": 0
+        },
+        {
+          "name": "Stars",
+          "value": 0
+        },
+        {
+          "name": "Hearts",
+          "value": 3
+        },
+        {
+          "name": "CheckpointX",
+          "value": 100
+        },
+        {
+          "name": "CheckpointY",
+          "value": 480
+        }
+      ],
+      "instances": [
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 64,
+          "layer": "",
+          "name": "Player_Momo",
+          "persistentUuid": "inst-player-1",
+          "width": 64,
+          "x": 100,
+          "y": 480,
+          "zOrder": 10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 160,
+          "layer": "",
+          "name": "Platform_Grass",
+          "persistentUuid": "inst-plat-1",
+          "width": 800,
+          "x": 0,
+          "y": 560,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        }
+      ],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "DepartScene"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "CameraX"
+              },
+              "parameters": [
+                "",
+                "Player_Momo.PointX(\"centre\")",
+                "",
+                "0"
+              ]
+            }
+          ],
+          "events": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Player_Momo",
+                "Item_Banana",
+                "",
+                "1"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Delete"
+              },
+              "parameters": [
+                "Item_Banana"
+              ]
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarScene"
+              },
+              "parameters": [
+                "Bananas",
+                "+",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarScene"
+              },
+              "parameters": [
+                "Score",
+                "+",
+                "10"
+              ]
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "assets/sounds/banana.wav",
+                "",
+                "80",
+                "100"
+              ]
+            }
+          ],
+          "events": []
+        }
+      ]
+    },
+    {
+      "name": "Level3_MonkeyMountain",
+      "mangledName": "Level3_MonkeyMountain",
+      "r": 128,
+      "v": 216,
+      "b": 255,
+      "title": "Level3_MonkeyMountain",
+      "stopSoundsOnStartup": false,
+      "standardSortMethod": true,
+      "uiSettings": {
+        "grid": false,
+        "gridType": "isometric",
+        "gridWidth": 32,
+        "gridHeight": 32,
+        "gridOffsetX": 0,
+        "gridOffsetY": 0,
+        "gridColor": 10401023,
+        "gridAlpha": 0.8,
+        "snapToGrid": false,
+        "zoomFactor": 1,
+        "windowMask": false
+      },
+      "objectsFolders": [],
+      "objects": [],
+      "layers": [
+        {
+          "name": "",
+          "visibility": true,
+          "cameras": [
+            {
+              "defaultSize": true,
+              "defaultViewport": true,
+              "height": 0,
+              "viewportBottom": 1,
+              "viewportLeft": 0,
+              "viewportRight": 1,
+              "viewportTop": 0,
+              "width": 0
+            }
+          ],
+          "effects": []
+        },
+        {
+          "name": "GUI",
+          "visibility": true,
+          "cameras": [
+            {
+              "defaultSize": true,
+              "defaultViewport": true,
+              "height": 0,
+              "viewportBottom": 1,
+              "viewportLeft": 0,
+              "viewportRight": 1,
+              "viewportTop": 0,
+              "width": 0
+            }
+          ],
+          "effects": []
+        }
+      ],
+      "behaviorsSharedData": [],
+      "variables": [
+        {
+          "name": "Score",
+          "value": 0
+        },
+        {
+          "name": "Bananas",
+          "value": 0
+        },
+        {
+          "name": "Stars",
+          "value": 0
+        },
+        {
+          "name": "Hearts",
+          "value": 3
+        },
+        {
+          "name": "CheckpointX",
+          "value": 100
+        },
+        {
+          "name": "CheckpointY",
+          "value": 480
+        }
+      ],
+      "instances": [
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 64,
+          "layer": "",
+          "name": "Player_Momo",
+          "persistentUuid": "inst-player-1",
+          "width": 64,
+          "x": 100,
+          "y": 480,
+          "zOrder": 10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 160,
+          "layer": "",
+          "name": "Platform_Grass",
+          "persistentUuid": "inst-plat-1",
+          "width": 800,
+          "x": 0,
+          "y": 560,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        }
+      ],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "DepartScene"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "CameraX"
+              },
+              "parameters": [
+                "",
+                "Player_Momo.PointX(\"centre\")",
+                "",
+                "0"
+              ]
+            }
+          ],
+          "events": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Player_Momo",
+                "Item_Banana",
+                "",
+                "1"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Delete"
+              },
+              "parameters": [
+                "Item_Banana"
+              ]
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarScene"
+              },
+              "parameters": [
+                "Bananas",
+                "+",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarScene"
+              },
+              "parameters": [
+                "Score",
+                "+",
+                "10"
+              ]
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "assets/sounds/banana.wav",
+                "",
+                "80",
+                "100"
+              ]
+            }
+          ],
+          "events": []
+        }
+      ]
+    },
+    {
+      "name": "Level4_MysteryJungle",
+      "mangledName": "Level4_MysteryJungle",
+      "r": 128,
+      "v": 216,
+      "b": 255,
+      "title": "Level4_MysteryJungle",
+      "stopSoundsOnStartup": false,
+      "standardSortMethod": true,
+      "uiSettings": {
+        "grid": false,
+        "gridType": "isometric",
+        "gridWidth": 32,
+        "gridHeight": 32,
+        "gridOffsetX": 0,
+        "gridOffsetY": 0,
+        "gridColor": 10401023,
+        "gridAlpha": 0.8,
+        "snapToGrid": false,
+        "zoomFactor": 1,
+        "windowMask": false
+      },
+      "objectsFolders": [],
+      "objects": [],
+      "layers": [
+        {
+          "name": "",
+          "visibility": true,
+          "cameras": [
+            {
+              "defaultSize": true,
+              "defaultViewport": true,
+              "height": 0,
+              "viewportBottom": 1,
+              "viewportLeft": 0,
+              "viewportRight": 1,
+              "viewportTop": 0,
+              "width": 0
+            }
+          ],
+          "effects": []
+        },
+        {
+          "name": "GUI",
+          "visibility": true,
+          "cameras": [
+            {
+              "defaultSize": true,
+              "defaultViewport": true,
+              "height": 0,
+              "viewportBottom": 1,
+              "viewportLeft": 0,
+              "viewportRight": 1,
+              "viewportTop": 0,
+              "width": 0
+            }
+          ],
+          "effects": []
+        }
+      ],
+      "behaviorsSharedData": [],
+      "variables": [
+        {
+          "name": "Score",
+          "value": 0
+        },
+        {
+          "name": "Bananas",
+          "value": 0
+        },
+        {
+          "name": "Stars",
+          "value": 0
+        },
+        {
+          "name": "Hearts",
+          "value": 3
+        },
+        {
+          "name": "CheckpointX",
+          "value": 100
+        },
+        {
+          "name": "CheckpointY",
+          "value": 480
+        }
+      ],
+      "instances": [
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 64,
+          "layer": "",
+          "name": "Player_Momo",
+          "persistentUuid": "inst-player-1",
+          "width": 64,
+          "x": 100,
+          "y": 480,
+          "zOrder": 10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 160,
+          "layer": "",
+          "name": "Platform_Grass",
+          "persistentUuid": "inst-plat-1",
+          "width": 800,
+          "x": 0,
+          "y": 560,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        }
+      ],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "DepartScene"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "CameraX"
+              },
+              "parameters": [
+                "",
+                "Player_Momo.PointX(\"centre\")",
+                "",
+                "0"
+              ]
+            }
+          ],
+          "events": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Player_Momo",
+                "Item_Banana",
+                "",
+                "1"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Delete"
+              },
+              "parameters": [
+                "Item_Banana"
+              ]
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarScene"
+              },
+              "parameters": [
+                "Bananas",
+                "+",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarScene"
+              },
+              "parameters": [
+                "Score",
+                "+",
+                "10"
+              ]
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "assets/sounds/banana.wav",
+                "",
+                "80",
+                "100"
+              ]
+            }
+          ],
+          "events": []
+        }
+      ]
+    },
+    {
+      "name": "Level5_GoldenBananaTemple",
+      "mangledName": "Level5_GoldenBananaTemple",
+      "r": 128,
+      "v": 216,
+      "b": 255,
+      "title": "Level5_GoldenBananaTemple",
+      "stopSoundsOnStartup": false,
+      "standardSortMethod": true,
+      "uiSettings": {
+        "grid": false,
+        "gridType": "isometric",
+        "gridWidth": 32,
+        "gridHeight": 32,
+        "gridOffsetX": 0,
+        "gridOffsetY": 0,
+        "gridColor": 10401023,
+        "gridAlpha": 0.8,
+        "snapToGrid": false,
+        "zoomFactor": 1,
+        "windowMask": false
+      },
+      "objectsFolders": [],
+      "objects": [],
+      "layers": [
+        {
+          "name": "",
+          "visibility": true,
+          "cameras": [
+            {
+              "defaultSize": true,
+              "defaultViewport": true,
+              "height": 0,
+              "viewportBottom": 1,
+              "viewportLeft": 0,
+              "viewportRight": 1,
+              "viewportTop": 0,
+              "width": 0
+            }
+          ],
+          "effects": []
+        },
+        {
+          "name": "GUI",
+          "visibility": true,
+          "cameras": [
+            {
+              "defaultSize": true,
+              "defaultViewport": true,
+              "height": 0,
+              "viewportBottom": 1,
+              "viewportLeft": 0,
+              "viewportRight": 1,
+              "viewportTop": 0,
+              "width": 0
+            }
+          ],
+          "effects": []
+        }
+      ],
+      "behaviorsSharedData": [],
+      "variables": [
+        {
+          "name": "Score",
+          "value": 0
+        },
+        {
+          "name": "Bananas",
+          "value": 0
+        },
+        {
+          "name": "Stars",
+          "value": 0
+        },
+        {
+          "name": "Hearts",
+          "value": 3
+        },
+        {
+          "name": "CheckpointX",
+          "value": 100
+        },
+        {
+          "name": "CheckpointY",
+          "value": 480
+        }
+      ],
+      "instances": [
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 64,
+          "layer": "",
+          "name": "Player_Momo",
+          "persistentUuid": "inst-player-1",
+          "width": 64,
+          "x": 100,
+          "y": 480,
+          "zOrder": 10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 160,
+          "layer": "",
+          "name": "Platform_Grass",
+          "persistentUuid": "inst-plat-1",
+          "width": 800,
+          "x": 0,
+          "y": 560,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        }
+      ],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "DepartScene"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "CameraX"
+              },
+              "parameters": [
+                "",
+                "Player_Momo.PointX(\"centre\")",
+                "",
+                "0"
+              ]
+            }
+          ],
+          "events": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Player_Momo",
+                "Item_Banana",
+                "",
+                "1"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Delete"
+              },
+              "parameters": [
+                "Item_Banana"
+              ]
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarScene"
+              },
+              "parameters": [
+                "Bananas",
+                "+",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarScene"
+              },
+              "parameters": [
+                "Score",
+                "+",
+                "10"
+              ]
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "assets/sounds/banana.wav",
+                "",
+                "80",
+                "100"
+              ]
+            }
+          ],
+          "events": []
+        }
+      ]
+    },
+    {
+      "name": "VictoryScene",
+      "mangledName": "VictoryScene",
+      "r": 128,
+      "v": 216,
+      "b": 255,
+      "title": "VictoryScene",
+      "stopSoundsOnStartup": false,
+      "standardSortMethod": true,
+      "uiSettings": {
+        "grid": false,
+        "gridType": "isometric",
+        "gridWidth": 32,
+        "gridHeight": 32,
+        "gridOffsetX": 0,
+        "gridOffsetY": 0,
+        "gridColor": 10401023,
+        "gridAlpha": 0.8,
+        "snapToGrid": false,
+        "zoomFactor": 1,
+        "windowMask": false
+      },
+      "objectsFolders": [],
+      "objects": [],
+      "layers": [
+        {
+          "name": "",
+          "visibility": true,
+          "cameras": [
+            {
+              "defaultSize": true,
+              "defaultViewport": true,
+              "height": 0,
+              "viewportBottom": 1,
+              "viewportLeft": 0,
+              "viewportRight": 1,
+              "viewportTop": 0,
+              "width": 0
+            }
+          ],
+          "effects": []
+        },
+        {
+          "name": "GUI",
+          "visibility": true,
+          "cameras": [
+            {
+              "defaultSize": true,
+              "defaultViewport": true,
+              "height": 0,
+              "viewportBottom": 1,
+              "viewportLeft": 0,
+              "viewportRight": 1,
+              "viewportTop": 0,
+              "width": 0
+            }
+          ],
+          "effects": []
+        }
+      ],
+      "behaviorsSharedData": [],
+      "variables": [
+        {
+          "name": "Score",
+          "value": 0
+        },
+        {
+          "name": "Bananas",
+          "value": 0
+        },
+        {
+          "name": "Stars",
+          "value": 0
+        },
+        {
+          "name": "Hearts",
+          "value": 3
+        },
+        {
+          "name": "CheckpointX",
+          "value": 100
+        },
+        {
+          "name": "CheckpointY",
+          "value": 480
+        }
+      ],
+      "instances": [
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 64,
+          "layer": "",
+          "name": "Player_Momo",
+          "persistentUuid": "inst-player-1",
+          "width": 64,
+          "x": 100,
+          "y": 480,
+          "zOrder": 10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 160,
+          "layer": "",
+          "name": "Platform_Grass",
+          "persistentUuid": "inst-plat-1",
+          "width": 800,
+          "x": 0,
+          "y": 560,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        }
+      ],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "DepartScene"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "CameraX"
+              },
+              "parameters": [
+                "",
+                "Player_Momo.PointX(\"centre\")",
+                "",
+                "0"
+              ]
+            }
+          ],
+          "events": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Player_Momo",
+                "Item_Banana",
+                "",
+                "1"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Delete"
+              },
+              "parameters": [
+                "Item_Banana"
+              ]
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarScene"
+              },
+              "parameters": [
+                "Bananas",
+                "+",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarScene"
+              },
+              "parameters": [
+                "Score",
+                "+",
+                "10"
+              ]
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "assets/sounds/banana.wav",
+                "",
+                "80",
+                "100"
+              ]
+            }
+          ],
+          "events": []
+        }
+      ]
+    },
+    {
+      "name": "AchievementsScene",
+      "mangledName": "AchievementsScene",
+      "r": 128,
+      "v": 216,
+      "b": 255,
+      "title": "AchievementsScene",
+      "stopSoundsOnStartup": false,
+      "standardSortMethod": true,
+      "uiSettings": {
+        "grid": false,
+        "gridType": "isometric",
+        "gridWidth": 32,
+        "gridHeight": 32,
+        "gridOffsetX": 0,
+        "gridOffsetY": 0,
+        "gridColor": 10401023,
+        "gridAlpha": 0.8,
+        "snapToGrid": false,
+        "zoomFactor": 1,
+        "windowMask": false
+      },
+      "objectsFolders": [],
+      "objects": [],
+      "layers": [
+        {
+          "name": "",
+          "visibility": true,
+          "cameras": [
+            {
+              "defaultSize": true,
+              "defaultViewport": true,
+              "height": 0,
+              "viewportBottom": 1,
+              "viewportLeft": 0,
+              "viewportRight": 1,
+              "viewportTop": 0,
+              "width": 0
+            }
+          ],
+          "effects": []
+        },
+        {
+          "name": "GUI",
+          "visibility": true,
+          "cameras": [
+            {
+              "defaultSize": true,
+              "defaultViewport": true,
+              "height": 0,
+              "viewportBottom": 1,
+              "viewportLeft": 0,
+              "viewportRight": 1,
+              "viewportTop": 0,
+              "width": 0
+            }
+          ],
+          "effects": []
+        }
+      ],
+      "behaviorsSharedData": [],
+      "variables": [
+        {
+          "name": "Score",
+          "value": 0
+        },
+        {
+          "name": "Bananas",
+          "value": 0
+        },
+        {
+          "name": "Stars",
+          "value": 0
+        },
+        {
+          "name": "Hearts",
+          "value": 3
+        },
+        {
+          "name": "CheckpointX",
+          "value": 100
+        },
+        {
+          "name": "CheckpointY",
+          "value": 480
+        }
+      ],
+      "instances": [
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 64,
+          "layer": "",
+          "name": "Player_Momo",
+          "persistentUuid": "inst-player-1",
+          "width": 64,
+          "x": 100,
+          "y": 480,
+          "zOrder": 10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 160,
+          "layer": "",
+          "name": "Platform_Grass",
+          "persistentUuid": "inst-plat-1",
+          "width": 800,
+          "x": 0,
+          "y": 560,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        }
+      ],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "DepartScene"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "CameraX"
+              },
+              "parameters": [
+                "",
+                "Player_Momo.PointX(\"centre\")",
+                "",
+                "0"
+              ]
+            }
+          ],
+          "events": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Player_Momo",
+                "Item_Banana",
+                "",
+                "1"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Delete"
+              },
+              "parameters": [
+                "Item_Banana"
+              ]
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarScene"
+              },
+              "parameters": [
+                "Bananas",
+                "+",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarScene"
+              },
+              "parameters": [
+                "Score",
+                "+",
+                "10"
+              ]
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "assets/sounds/banana.wav",
+                "",
+                "80",
+                "100"
+              ]
+            }
+          ],
+          "events": []
+        }
+      ]
+    },
+    {
+      "name": "SettingsScene",
+      "mangledName": "SettingsScene",
+      "r": 128,
+      "v": 216,
+      "b": 255,
+      "title": "SettingsScene",
+      "stopSoundsOnStartup": false,
+      "standardSortMethod": true,
+      "uiSettings": {
+        "grid": false,
+        "gridType": "isometric",
+        "gridWidth": 32,
+        "gridHeight": 32,
+        "gridOffsetX": 0,
+        "gridOffsetY": 0,
+        "gridColor": 10401023,
+        "gridAlpha": 0.8,
+        "snapToGrid": false,
+        "zoomFactor": 1,
+        "windowMask": false
+      },
+      "objectsFolders": [],
+      "objects": [],
+      "layers": [
+        {
+          "name": "",
+          "visibility": true,
+          "cameras": [
+            {
+              "defaultSize": true,
+              "defaultViewport": true,
+              "height": 0,
+              "viewportBottom": 1,
+              "viewportLeft": 0,
+              "viewportRight": 1,
+              "viewportTop": 0,
+              "width": 0
+            }
+          ],
+          "effects": []
+        },
+        {
+          "name": "GUI",
+          "visibility": true,
+          "cameras": [
+            {
+              "defaultSize": true,
+              "defaultViewport": true,
+              "height": 0,
+              "viewportBottom": 1,
+              "viewportLeft": 0,
+              "viewportRight": 1,
+              "viewportTop": 0,
+              "width": 0
+            }
+          ],
+          "effects": []
+        }
+      ],
+      "behaviorsSharedData": [],
+      "variables": [
+        {
+          "name": "Score",
+          "value": 0
+        },
+        {
+          "name": "Bananas",
+          "value": 0
+        },
+        {
+          "name": "Stars",
+          "value": 0
+        },
+        {
+          "name": "Hearts",
+          "value": 3
+        },
+        {
+          "name": "CheckpointX",
+          "value": 100
+        },
+        {
+          "name": "CheckpointY",
+          "value": 480
+        }
+      ],
+      "instances": [
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 64,
+          "layer": "",
+          "name": "Player_Momo",
+          "persistentUuid": "inst-player-1",
+          "width": 64,
+          "x": 100,
+          "y": 480,
+          "zOrder": 10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 160,
+          "layer": "",
+          "name": "Platform_Grass",
+          "persistentUuid": "inst-plat-1",
+          "width": 800,
+          "x": 0,
+          "y": 560,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        }
+      ],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "DepartScene"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "CameraX"
+              },
+              "parameters": [
+                "",
+                "Player_Momo.PointX(\"centre\")",
+                "",
+                "0"
+              ]
+            }
+          ],
+          "events": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Player_Momo",
+                "Item_Banana",
+                "",
+                "1"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Delete"
+              },
+              "parameters": [
+                "Item_Banana"
+              ]
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarScene"
+              },
+              "parameters": [
+                "Bananas",
+                "+",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarScene"
+              },
+              "parameters": [
+                "Score",
+                "+",
+                "10"
+              ]
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "assets/sounds/banana.wav",
+                "",
+                "80",
+                "100"
+              ]
+            }
+          ],
+          "events": []
+        }
+      ]
+    }
+  ],
+  "externalEvents": [],
+  "eventsFunctionsExtensions": [],
+  "externalLayouts": [],
+  "externalSourceFiles": []
+}

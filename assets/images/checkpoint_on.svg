@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 96" width="64" height="96">
+  <defs>
+    <filter id="chkGlow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="0" stdDeviation="4" flood-color="#FFD600" flood-opacity="0.9"/>
+    </filter>
+  </defs>
+  <rect x="28" y="10" width="8" height="80" rx="3" fill="#8D6E63" stroke="#4E342E" stroke-width="2"/>
+  <ellipse cx="32" cy="90" rx="18" ry="6" fill="#5D4037"/>
+  <path d="M36,16 Q48,10 60,18 L60,42 Q48,34 36,40 Z" fill="#FFD600" stroke="#FF6D00" stroke-width="2" filter="url(#chkGlow)"/>
+  <circle cx="48" cy="27" r="6" fill="#E65100"/>
+  <circle cx="32" cy="10" r="7" fill="#00E676" stroke="#00B0FF" stroke-width="2.5" filter="url(#chkGlow)"/>
+</svg>

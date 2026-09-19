@@ -1,0 +1,23 @@
+{
+  "name": "monkey-chase",
+  "version": "1.0.0",
+  "description": "MONKEY CHASE - A complete, polished, child-friendly 2D cartoon platformer game for GDevelop and Web",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node scripts/test_project.js",
+    "build:assets": "node scripts/build_assets.js && node scripts/build_scenery.js",
+    "build:gdevelop": "node scripts/build_gdevelop_project.js"
+  },
+  "keywords": [
+    "gdevelop",
+    "platformer",
+    "game",
+    "cartoon",
+    "child-friendly",
+    "canvas",
+    "web-audio"
+  ],
+  "author": "Monkey Chase Team",
+  "license": "MIT"
+}

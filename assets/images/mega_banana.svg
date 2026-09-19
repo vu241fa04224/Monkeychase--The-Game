@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80" width="80" height="80">
+  <defs>
+    <radialGradient id="megaGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FFEB3B" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#FF5722" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <circle cx="40" cy="40" r="36" fill="url(#megaGlow)"/>
+  <path d="M20,20 C32,15 50,18 64,34 C76,46 72,66 62,68 C58,69 54,62 56,54 C58,44 50,32 38,26 C28,22 22,26 20,20 Z" 
+        fill="#FFD600" stroke="#FF6D00" stroke-width="3.5"/>
+  <text x="40" y="52" font-family="'Comic Sans MS', cursive, sans-serif" font-weight="black" font-size="16" fill="#D50000" text-anchor="middle">2X</text>
+</svg>

@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <defs>
+    <linearGradient id="treeCanopy" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#4CAF50"/>
+      <stop offset="100%" stop-color="#2E7D32"/>
+    </linearGradient>
+  </defs>
+  <!-- Repeated cartoon tree clusters -->
+  <g fill="url(#treeCanopy)">
+    <!-- Tree 1 -->
+    <rect x="90" y="380" width="30" height="340" rx="10" fill="#5D4037"/>
+    <circle cx="105" cy="340" r="90"/>
+    <circle cx="60" cy="360" r="65"/>
+    <circle cx="150" cy="360" r="65"/>
+    <!-- Tree 2 -->
+    <rect x="420" y="420" width="28" height="300" rx="8" fill="#5D4037"/>
+    <circle cx="434" cy="380" r="80"/>
+    <circle cx="390" cy="400" r="60"/>
+    <circle cx="480" cy="400" r="60"/>
+    <!-- Tree 3 -->
+    <rect x="760" y="360" width="34" height="360" rx="10" fill="#5D4037"/>
+    <circle cx="777" cy="310" r="95"/>
+    <circle cx="720" cy="340" r="70"/>
+    <circle cx="830" cy="340" r="70"/>
+    <!-- Tree 4 -->
+    <rect x="1100" y="400" width="30" height="320" rx="10" fill="#5D4037"/>
+    <circle cx="1115" cy="350" r="85"/>
+    <circle cx="1070" cy="380" r="65"/>
+    <circle cx="1160" cy="380" r="65"/>
+  </g>
+</svg>

@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 160" width="32" height="160">
+  <path d="M16,0 Q8,40 20,80 Q8,120 16,160" fill="none" stroke="#2E7D32" stroke-width="6" stroke-linecap="round"/>
+  <!-- Little leaves along vine -->
+  <ellipse cx="10" cy="30" rx="8" ry="4" transform="rotate(-25 10 30)" fill="#76FF03"/>
+  <ellipse cx="22" cy="70" rx="8" ry="4" transform="rotate(25 22 70)" fill="#76FF03"/>
+  <ellipse cx="10" cy="110" rx="8" ry="4" transform="rotate(-25 10 110)" fill="#76FF03"/>
+  <ellipse cx="22" cy="145" rx="8" ry="4" transform="rotate(25 22 145)" fill="#76FF03"/>
+</svg>

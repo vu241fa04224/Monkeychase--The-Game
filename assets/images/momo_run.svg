@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <defs>
+    <radialGradient id="faceGrad" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FFE0B2"/><stop offset="100%" stop-color="#FFCC80"/>
+    </radialGradient>
+    <radialGradient id="furGrad" cx="40%" cy="40%" r="60%">
+      <stop offset="0%" stop-color="#8D5524"/><stop offset="100%" stop-color="#5C3317"/>
+    </radialGradient>
+    <linearGradient id="bodyGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#8D5524"/><stop offset="100%" stop-color="#4E270A"/>
+    </linearGradient>
+  </defs>
+  <ellipse cx="64" cy="120" rx="30" ry="6" fill="#000000" opacity="0.2"/>
+  <!-- Tail animated high -->
+  <path d="M38,82 C16,84 8,62 18,50 C26,40 34,48 30,56 C26,62 20,58 20,54" 
+        fill="none" stroke="#5C3317" stroke-width="9" stroke-linecap="round"/>
+  <!-- Back Leg -->
+  <path d="M52,96 Q40,105 32,112" fill="none" stroke="#5C3317" stroke-width="9" stroke-linecap="round"/>
+  <ellipse cx="30" cy="113" rx="8" ry="5" fill="#FFE0B2"/>
+  <!-- Back Arm -->
+  <path d="M46,78 Q30,70 28,60" fill="none" stroke="#5C3317" stroke-width="8" stroke-linecap="round"/>
+  <circle cx="28" cy="59" r="5" fill="#FFE0B2"/>
+  <!-- Leaning Body -->
+  <ellipse cx="66" cy="85" rx="25" ry="23" transform="rotate(10 66 85)" fill="url(#bodyGrad)"/>
+  <ellipse cx="67" cy="86" rx="16" ry="15" transform="rotate(10 67 86)" fill="#FFE0B2"/>
+  <!-- Front Leg -->
+  <path d="M74,96 Q88,104 96,110" fill="none" stroke="#5C3317" stroke-width="9" stroke-linecap="round"/>
+  <ellipse cx="98" cy="111" rx="8" ry="5" fill="#FFE0B2"/>
+  <!-- Front Arm pumped forward -->
+  <path d="M82,78 Q98,72 104,82" fill="none" stroke="#5C3317" stroke-width="8" stroke-linecap="round"/>
+  <circle cx="105" cy="83" r="5.5" fill="#FFE0B2"/>
+  <!-- Head Leaning Forward -->
+  <g transform="translate(6, 0) rotate(8 68 45)">
+    <circle cx="34" cy="46" r="14" fill="#5C3317"/>
+    <circle cx="34" cy="46" r="9" fill="#FFCC80"/>
+    <circle cx="98" cy="46" r="14" fill="#5C3317"/>
+    <circle cx="98" cy="46" r="9" fill="#FFCC80"/>
+    <ellipse cx="66" cy="46" rx="33" ry="29" fill="url(#furGrad)"/>
+    <circle cx="55" cy="45" r="17" fill="url(#faceGrad)"/>
+    <circle cx="77" cy="45" r="17" fill="url(#faceGrad)"/>
+    <ellipse cx="66" cy="56" rx="20" ry="14" fill="url(#faceGrad)"/>
+    <!-- Joyful Eyes -->
+    <ellipse cx="55" cy="42" rx="7.5" ry="10" fill="#FFFFFF"/>
+    <ellipse cx="57" cy="43" rx="5" ry="7" fill="#1A237E"/>
+    <circle cx="59" cy="40" r="2.5" fill="#FFFFFF"/>
+    <ellipse cx="77" cy="42" rx="7.5" ry="10" fill="#FFFFFF"/>
+    <ellipse cx="79" cy="43" rx="5" ry="7" fill="#1A237E"/>
+    <circle cx="81" cy="40" r="2.5" fill="#FFFFFF"/>
+    <circle cx="45" cy="53" r="5.5" fill="#FF8A80" opacity="0.6"/>
+    <circle cx="87" cy="53" r="5.5" fill="#FF8A80" opacity="0.6"/>
+    <ellipse cx="66" cy="53" rx="3.5" ry="2.2" fill="#4E270A"/>
+    <!-- Excited Open Mouth -->
+    <path d="M57,57 Q66,70 75,57" fill="#D32F2F" stroke="#4E270A" stroke-width="2.5" stroke-linecap="round"/>
+    <path d="M62,64 Q66,68 70,64" fill="#FF8A80"/>
+    <path d="M62,19 Q66,10 70,18" fill="#5C3317"/>
+  </g>
+</svg>

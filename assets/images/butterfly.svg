@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="48" height="48">
+  <defs>
+    <radialGradient id="wingGrad" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FFEB3B"/>
+      <stop offset="100%" stop-color="#FF4081"/>
+    </radialGradient>
+  </defs>
+  <!-- Left Wings -->
+  <ellipse cx="14" cy="16" rx="12" ry="9" transform="rotate(-30 14 16)" fill="url(#wingGrad)"/>
+  <ellipse cx="16" cy="32" rx="9" ry="7" transform="rotate(20 16 32)" fill="url(#wingGrad)"/>
+  <!-- Right Wings -->
+  <ellipse cx="34" cy="16" rx="12" ry="9" transform="rotate(30 34 16)" fill="url(#wingGrad)"/>
+  <ellipse cx="32" cy="32" rx="9" ry="7" transform="rotate(-20 32 32)" fill="url(#wingGrad)"/>
+  <!-- Body -->
+  <ellipse cx="24" cy="24" rx="3" ry="12" fill="#3E2723"/>
+  <circle cx="24" cy="12" r="3.5" fill="#3E2723"/>
+</svg>

@@ -1,0 +1,104 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <defs>
+    <radialGradient id="faceGrad" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FFE0B2"/>
+      <stop offset="100%" stop-color="#FFCC80"/>
+    </radialGradient>
+    <radialGradient id="furGrad" cx="40%" cy="40%" r="60%">
+      <stop offset="0%" stop-color="#8D5524"/>
+      <stop offset="100%" stop-color="#5C3317"/>
+    </radialGradient>
+    <linearGradient id="bodyGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#8D5524"/>
+      <stop offset="100%" stop-color="#4E270A"/>
+    </linearGradient>
+    <radialGradient id="bellyGrad" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FFF3E0"/>
+      <stop offset="100%" stop-color="#FFE0B2"/>
+    </radialGradient>
+    <filter id="softShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="4" stdDeviation="3" flood-color="#000000" flood-opacity="0.25"/>
+    </filter>
+  </defs>
+
+  <!-- Ground Shadow -->
+  <ellipse cx="64" cy="120" rx="34" ry="7" fill="#000000" opacity="0.22"/>
+
+  <!-- Curled Tail -->
+  <path d="M40,88 C20,95 10,75 14,60 C18,48 30,50 30,58 C30,66 22,66 20,62 C18,58 20,54 22,54" 
+        fill="none" stroke="#5C3317" stroke-width="9" stroke-linecap="round"/>
+
+  <!-- Left Arm -->
+  <path d="M42,80 Q32,95 38,104" fill="none" stroke="#5C3317" stroke-width="8" stroke-linecap="round"/>
+  <circle cx="38" cy="105" r="5.5" fill="#FFE0B2"/>
+
+  <!-- Body -->
+  <ellipse cx="64" cy="88" rx="26" ry="24" fill="url(#bodyGrad)" filter="url(#softShadow)"/>
+  <!-- Belly -->
+  <ellipse cx="65" cy="89" rx="17" ry="16" fill="url(#bellyGrad)"/>
+
+  <!-- Feet -->
+  <ellipse cx="50" cy="116" rx="9" ry="6" fill="#5C3317"/>
+  <ellipse cx="50" cy="115" rx="7" ry="4.5" fill="#FFE0B2"/>
+  <ellipse cx="78" cy="116" rx="9" ry="6" fill="#5C3317"/>
+  <ellipse cx="78" cy="115" rx="7" ry="4.5" fill="#FFE0B2"/>
+
+  <!-- Right Arm -->
+  <path d="M86,80 Q96,95 90,104" fill="none" stroke="#5C3317" stroke-width="8" stroke-linecap="round"/>
+  <circle cx="90" cy="105" r="5.5" fill="#FFE0B2"/>
+
+  <!-- Head Group -->
+  <g transform="translate(0, -2)">
+    <!-- Ears -->
+    <circle cx="32" cy="46" r="14" fill="#5C3317"/>
+    <circle cx="32" cy="46" r="9" fill="#FFCC80"/>
+    <circle cx="96" cy="46" r="14" fill="#5C3317"/>
+    <circle cx="96" cy="46" r="9" fill="#FFCC80"/>
+
+    <!-- Head base -->
+    <ellipse cx="64" cy="46" rx="33" ry="29" fill="url(#furGrad)" filter="url(#softShadow)"/>
+
+    <!-- Cute Monkey Face Mask -->
+    <!-- Left face lobe -->
+    <circle cx="53" cy="45" r="17" fill="url(#faceGrad)"/>
+    <!-- Right face lobe -->
+    <circle cx="75" cy="45" r="17" fill="url(#faceGrad)"/>
+    <!-- Muzzle -->
+    <ellipse cx="64" cy="56" rx="20" ry="14" fill="url(#faceGrad)"/>
+
+    <!-- Big Shiny Anime/Cartoon Eyes -->
+    <!-- Left Eye Outer -->
+    <ellipse cx="53" cy="42" rx="7.5" ry="10" fill="#FFFFFF"/>
+    <!-- Left Pupil -->
+    <ellipse cx="54" cy="43" rx="5.5" ry="7.5" fill="#2E1A0F"/>
+    <ellipse cx="55" cy="43" rx="4.5" ry="6.5" fill="#1A237E"/>
+    <circle cx="56.5" cy="40" r="2.8" fill="#FFFFFF"/>
+    <circle cx="52.5" cy="45.5" r="1.4" fill="#FFFFFF"/>
+
+    <!-- Right Eye Outer -->
+    <ellipse cx="75" cy="42" rx="7.5" ry="10" fill="#FFFFFF"/>
+    <!-- Right Pupil -->
+    <ellipse cx="74" cy="43" rx="5.5" ry="7.5" fill="#2E1A0F"/>
+    <ellipse cx="73" cy="43" rx="4.5" ry="6.5" fill="#1A237E"/>
+    <circle cx="75.5" cy="40" r="2.8" fill="#FFFFFF"/>
+    <circle cx="71.5" cy="45.5" r="1.4" fill="#FFFFFF"/>
+
+    <!-- Eyebrows -->
+    <path d="M47,31 Q53,28 59,31" fill="none" stroke="#4E270A" stroke-width="2.5" stroke-linecap="round"/>
+    <path d="M69,31 Q75,28 81,31" fill="none" stroke="#4E270A" stroke-width="2.5" stroke-linecap="round"/>
+
+    <!-- Rosy Cheeks -->
+    <circle cx="43" cy="53" r="5.5" fill="#FF8A80" opacity="0.6"/>
+    <circle cx="85" cy="53" r="5.5" fill="#FF8A80" opacity="0.6"/>
+
+    <!-- Cute Nose -->
+    <ellipse cx="64" cy="53" rx="3.5" ry="2.2" fill="#4E270A"/>
+
+    <!-- Cheerful Big Smile with tongue -->
+    <path d="M56,58 Q64,68 72,58" fill="#D32F2F" stroke="#4E270A" stroke-width="2.5" stroke-linecap="round"/>
+    <path d="M60,63 Q64,67 68,63" fill="#FF8A80"/>
+
+    <!-- Tuft of Hair on top -->
+    <path d="M60,19 Q64,10 68,18 Q72,13 71,20" fill="#5C3317"/>
+  </g>
+</svg>

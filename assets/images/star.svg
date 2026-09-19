@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <defs>
+    <radialGradient id="starGrad" cx="50%" cy="40%" r="60%">
+      <stop offset="0%" stop-color="#FFEE58"/><stop offset="100%" stop-color="#FFB300"/>
+    </radialGradient>
+    <filter id="starGlow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="2" stdDeviation="3" flood-color="#FFA000" flood-opacity="0.8"/>
+    </filter>
+  </defs>
+  <polygon points="32,4 40,22 59,23 44,36 50,55 32,43 14,55 20,36 5,23 24,22" 
+           fill="url(#starGrad)" stroke="#FFA000" stroke-width="3" stroke-linejoin="round" filter="url(#starGlow)"/>
+  <ellipse cx="26" cy="28" rx="2.5" ry="3.5" fill="#3E2723"/>
+  <ellipse cx="38" cy="28" rx="2.5" ry="3.5" fill="#3E2723"/>
+  <circle cx="27" cy="27" r="1" fill="#FFFFFF"/>
+  <circle cx="39" cy="27" r="1" fill="#FFFFFF"/>
+  <circle cx="22" cy="33" r="3" fill="#FF8A80" opacity="0.7"/>
+  <circle cx="42" cy="33" r="3" fill="#FF8A80" opacity="0.7"/>
+  <path d="M29,33 Q32,37 35,33" fill="none" stroke="#3E2723" stroke-width="2" stroke-linecap="round"/>
+</svg>

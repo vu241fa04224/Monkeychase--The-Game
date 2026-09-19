@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 64" width="96" height="64">
+  <defs>
+    <linearGradient id="snakeGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#81C784"/>
+      <stop offset="100%" stop-color="#388E3C"/>
+    </linearGradient>
+  </defs>
+  <path d="M12,48 C16,36 32,36 40,46 C48,56 64,54 72,42 C76,34 84,36 86,44 C88,52 76,58 60,58 C38,58 20,58 12,48 Z" 
+        fill="url(#snakeGrad)" stroke="#2E7D32" stroke-width="3"/>
+  <ellipse cx="26" cy="46" rx="6" ry="3" fill="#FFF59D"/>
+  <ellipse cx="54" cy="52" rx="7" ry="3.5" fill="#FFF59D"/>
+  <circle cx="78" cy="34" r="14" fill="url(#snakeGrad)" stroke="#2E7D32" stroke-width="2.5"/>
+  <path d="M74,32 Q79,37 84,32" fill="none" stroke="#1B5E20" stroke-width="2.5" stroke-linecap="round"/>
+  <circle cx="76" cy="38" r="3.5" fill="#FF8A80" opacity="0.6"/>
+  <text x="82" y="18" font-family="Arial, sans-serif" font-weight="bold" font-size="14" fill="#1E88E5">Z</text>
+  <text x="74" y="10" font-family="Arial, sans-serif" font-weight="bold" font-size="10" fill="#42A5F5">z</text>
+</svg>

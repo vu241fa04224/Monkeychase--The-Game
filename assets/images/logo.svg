@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 160" width="500" height="160">
+  <defs>
+    <linearGradient id="titleGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFF176"/>
+      <stop offset="50%" stop-color="#FFD600"/>
+      <stop offset="100%" stop-color="#FF6D00"/>
+    </linearGradient>
+    <filter id="popShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="6" stdDeviation="4" flood-color="#3E2723" flood-opacity="0.8"/>
+    </filter>
+  </defs>
+  <rect x="10" y="20" width="480" height="120" rx="24" fill="#6D4C41" stroke="#3E2723" stroke-width="7" filter="url(#popShadow)"/>
+  <rect x="16" y="26" width="468" height="108" rx="18" fill="#8D6E63" stroke="#4E342E" stroke-width="3"/>
+  <path d="M10,20 Q-10,5 5,-10 Q30,-5 15,20" fill="#00E676" stroke="#00B0FF" stroke-width="2"/>
+  <path d="M490,20 Q510,5 495,-10 Q470,-5 485,20" fill="#00E676" stroke="#00B0FF" stroke-width="2"/>
+  <text x="250" y="85" font-family="'Comic Sans MS', 'Fredoka One', 'Arial Black', cursive, sans-serif" 
+        font-weight="900" font-size="54" fill="url(#titleGrad)" stroke="#3E2723" stroke-width="6" 
+        text-anchor="middle" letter-spacing="2">MONKEY CHASE</text>
+  <text x="250" y="118" font-family="'Comic Sans MS', 'Fredoka One', cursive, sans-serif" 
+        font-weight="bold" font-size="20" fill="#FFFFFF" stroke="#D84315" stroke-width="2" 
+        text-anchor="middle" letter-spacing="1">Run • Jump • Collect • Explore!</text>
+</svg>

@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 110 130" width="110" height="130">
+  <defs>
+    <linearGradient id="goldArch" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFEE58"/>
+      <stop offset="50%" stop-color="#FFD600"/>
+      <stop offset="100%" stop-color="#FF9100"/>
+    </linearGradient>
+  </defs>
+  <rect x="10" y="30" width="22" height="95" rx="6" fill="url(#goldArch)" stroke="#E65100" stroke-width="3"/>
+  <rect x="78" y="30" width="22" height="95" rx="6" fill="url(#goldArch)" stroke="#E65100" stroke-width="3"/>
+  <path d="M5,35 Q55,-10 105,35 L95,48 Q55,10 15,48 Z" fill="url(#goldArch)" stroke="#E65100" stroke-width="3"/>
+  <circle cx="55" cy="38" r="18" fill="#FFF9C4" stroke="#FF8F00" stroke-width="2.5"/>
+  <path d="M46,30 C51,28 58,29 63,35 C67,40 65,48 62,49 C60,50 59,47 60,44 C61,40 58,35 53,33 Z" fill="#FFD600" stroke="#FF8F00" stroke-width="1.5"/>
+  <ellipse cx="21" cy="24" rx="6" ry="10" fill="#FF3D00"/>
+  <ellipse cx="21" cy="22" rx="4" ry="7" fill="#FFEA00"/>
+  <ellipse cx="89" cy="24" rx="6" ry="10" fill="#FF3D00"/>
+  <ellipse cx="89" cy="22" rx="4" ry="7" fill="#FFEA00"/>
+</svg>

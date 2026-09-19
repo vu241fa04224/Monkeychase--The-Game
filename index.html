@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <title>MONKEY CHASE 🐒🍌 - 2D Cartoon Adventure</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" type="image/svg+xml" href="assets/images/banana.svg" />
+</head>
+<body>
+  <div id="game-wrapper">
+    <!-- Main 60fps Game Canvas -->
+    <canvas id="game-canvas"></canvas>
+
+    <!-- In-Game Child-Friendly HUD -->
+    <div id="hud">
+      <div class="hud-left">
+        <div class="hud-pill" id="hud-hearts">
+          <span class="hud-heart heart-full">❤️</span>
+          <span class="hud-heart heart-full">❤️</span>
+          <span class="hud-heart heart-full">❤️</span>
+        </div>
+        <div class="hud-pill" id="hud-bananas">🍌 0</div>
+        <div class="hud-pill" id="hud-stars">⭐ 0/3</div>
+      </div>
+
+      <div class="hud-right">
+        <div class="hud-pill" id="hud-level-title">Sunny Jungle</div>
+        <div class="hud-pill" id="hud-score">🏆 0000</div>
+        <button class="btn-pause" id="hud-pause-btn" title="Pause Game">⏸</button>
+      </div>
+    </div>
+
+    <!-- UI Overlay for Menus & Modals -->
+    <div id="ui-overlay"></div>
+
+    <!-- Responsive On-Screen Mobile Touch Controls -->
+    <div id="touch-controls">
+      <div class="touch-cluster-left">
+        <button class="touch-btn" id="touch-left">◀</button>
+        <button class="touch-btn" id="touch-right">▶</button>
+      </div>
+      <div class="touch-cluster-right">
+        <button class="touch-btn" id="touch-jump">⬆</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Game Engine Scripts -->
+  <script src="js/storage.js"></script>
+  <script src="js/audio.js"></script>
+  <script src="js/sprites.js"></script>
+  <script src="js/particles.js"></script>
+  <script src="js/physics.js"></script>
+  <script src="js/player.js"></script>
+  <script src="js/enemies.js"></script>
+  <script src="js/items.js"></script>
+  <script src="js/camera.js"></script>
+  <script src="js/levels.js"></script>
+  <script src="js/ui.js"></script>
+  <script src="js/game.js"></script>
+</body>
+</html>
